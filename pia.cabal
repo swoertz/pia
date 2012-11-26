@@ -1,0 +1,47 @@
+name:           pia
+version:        1.0.0
+description: 	a program to orientate term rewriting rules with polynomial and matrix interpretations
+cabal-version:  >= 1.4
+build-type:     Simple
+author:         Simon Woertz
+maintainer:     Simon Woertz <simon@woertz.at>
+homepage:       https://github.com/swoertz/pia
+bug-reports:    https://github.com/swoertz/pia/issues
+copyright:      (c) 2011 - 2012 Simon Woertz
+category:       Term Rewriting
+license:        GPL-3
+license-file:   LICENSE
+
+data-files:     samples/interpretations/sample1, 
+                samples/interpretations/sample2, 
+                samples/interpretations/sample3, 
+                samples/interpretations/sample4, 
+                samples/interpretations/sample5, 
+                samples/trs/sample1, 
+                samples/trs/sample2, 
+                samples/trs/sample3, 
+                samples/trs/sample4, 
+                samples/trs/sample5
+
+executable pia
+  hs-source-dirs:  src
+  main-is:         PIA.hs
+  build-depends:   base >= 4,
+                   hmatrix,
+                   parsec,
+                   parsec-numbers
+  ghc-options:     -Wall
+  other-modules:   
+                   Interpretation,
+                   Parser,
+                   Parser.Interpretation,
+                   Parser.Polynomial,
+                   Parser.TRS,
+                   Parser.Util,
+                   Polynomial,
+                   TRS,
+                   TRS.Rule,
+                   TRS.TRS,
+                   TRS.Term,
+                   Util
+

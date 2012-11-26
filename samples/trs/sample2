@@ -1,0 +1,4 @@
+(VAR x y z u)
+(RULES
+ h(g(s(x),y),g(z,u)) -> h(g(u,s(z)),g(s(y),x))
+)

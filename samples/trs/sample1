@@ -1,0 +1,2 @@
+(VAR x y)
+(RULES add(s(x),y) -> s(add(x,y)))
