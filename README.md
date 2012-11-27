@@ -1,4 +1,4 @@
-# pia #
+# pia (polynomial interpretation analyzer)#
 This tool was developed as bachelor project at Computational Logic group of the University of Innsbruck.
 
 ## Abstract ##
