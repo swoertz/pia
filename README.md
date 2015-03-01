@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/swoertz/pia.svg?branch=master)](https://travis-ci.org/swoertz/pia)
 # pia (polynomial interpretation analyzer)#
 This tool was developed as bachelor project at Computational Logic group of the University of Innsbruck.
 
